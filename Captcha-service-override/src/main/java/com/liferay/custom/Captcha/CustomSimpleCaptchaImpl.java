@@ -166,6 +166,8 @@ public class CustomSimpleCaptchaImpl implements com.liferay.portal.kernel.captch
 
 	protected Captcha getSimpleCaptcha() {
 		Captcha.Builder captchaBuilder = new Captcha.Builder(getWidth(), getHeight());
+		//please read the text producer from config and call with param as no. of chars needed
+		//**************this is where the change is needed
 		captchaBuilder.addText(new DefaultTextProducer(6), getWordRenderer());
 		captchaBuilder.addBackground(getBackgroundProducer());
 		captchaBuilder.gimp(getGimpyRenderer());
