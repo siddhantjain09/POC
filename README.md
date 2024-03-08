@@ -1,3 +1,3 @@
 # POC
 
-1. For captcha, configure captcha call in 'Simple CAPTCHA Text Producers' configuratino to: nl.captcha.text.producer.DefaultTextProducer
+1. For captcha, configure captcha call in 'Simple CAPTCHA Text Producers' configuration to: nl.captcha.text.producer.DefaultTextProducer
