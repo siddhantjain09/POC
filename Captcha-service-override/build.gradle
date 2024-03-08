@@ -1,0 +1,8 @@
+dependencies {
+	compileOnly group: "com.liferay.portal", name: "release.dxp.api"
+	compileInclude group: "com.liferay", name: "nl.captcha.simplecaptcha", version: "1.1.1"
+	compileInclude group: "com.jhlabs", name: "filters", version: "2.0.235"
+
+
+	cssBuilder group: "com.liferay", name: "com.liferay.css.builder", version: "3.0.3"
+}
